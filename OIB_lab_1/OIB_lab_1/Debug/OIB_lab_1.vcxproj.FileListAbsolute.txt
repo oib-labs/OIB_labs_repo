@@ -1,0 +1,4 @@
+C:\Users\denis\source\repos\OIB_lab_1\OIB_lab_1\Debug\OIB_lab_1.vcxproj.AssemblyReference.cache
+C:\Users\denis\source\repos\OIB_lab_1\OIB_lab_1\Debug\OIBlab1.MyForm.resources
+C:\Users\denis\source\repos\OIB_lab_1\OIB_lab_1\Debug\OIB_lab_1.vcxproj.GenerateResource.cache
+d:\Programs\OIB_labs_repo\OIB_lab_1\OIB_lab_1\Debug\OIB_lab_1.vcxproj.AssemblyReference.cache
