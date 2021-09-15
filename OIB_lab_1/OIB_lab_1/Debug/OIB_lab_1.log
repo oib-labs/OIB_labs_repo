@@ -1,3 +1,7 @@
 ﻿  MyForm.cpp
+D:\Programs\OIB_labs_repo\OIB_lab_1\OIB_lab_1\MyForm1.h(161,8): warning C4101: outCharArr: неиспользованная локальная переменная
+  MyForm1.cpp
+D:\Programs\OIB_labs_repo\OIB_lab_1\OIB_lab_1\MyForm1.h(161,8): warning C4101: outCharArr: неиспользованная локальная переменная
+  Создание кода...
   MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   OIB_lab_1.vcxproj -> D:\Programs\OIB_labs_repo\OIB_lab_1\Debug\OIB_lab_1.exe
