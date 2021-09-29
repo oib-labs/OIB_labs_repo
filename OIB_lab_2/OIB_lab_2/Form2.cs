@@ -12,6 +12,7 @@ namespace OIB_lab_2
 {
     public partial class Form2 : Form
     {
+        //Конструктор формы 2
         public Form2()
         {
             InitializeComponent();
