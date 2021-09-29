@@ -13,7 +13,6 @@ namespace OIB_lab_2
     public partial class Form2 : Form
     {
         //Конструктор формы 2
-        //Просто коммент
         public Form2()
         {
             InitializeComponent();
