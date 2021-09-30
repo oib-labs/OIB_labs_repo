@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace OIB_lab_2
 {
-    public partial class Form2 : Form
+    public partial class Регистрация : Form
     {
-        //Конструктор формы 2
-        public Form2()
+       
+        public Регистрация(Form1 f)
         {
             InitializeComponent();
-
-            Form1 f1 = new Form1();
-            Car car1 = f1.GetCar();
-            tbWeight.Text = Convert.ToString(car1.GetWeight());
-            tbYear.Text = Convert.ToString(car1.GetYear());
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

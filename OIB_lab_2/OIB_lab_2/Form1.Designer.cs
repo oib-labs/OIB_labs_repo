@@ -29,69 +29,96 @@ namespace OIB_lab_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lblWeight = new System.Windows.Forms.Label();
-            this.lblYear = new System.Windows.Forms.Label();
+            this.BtnLogin = new System.Windows.Forms.Button();
+            this.TbID1 = new System.Windows.Forms.TextBox();
+            this.TbPass1 = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.lblPass = new System.Windows.Forms.Label();
+            this.BtnRegister = new System.Windows.Forms.Button();
+            this.BtnForgetPass1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnLogin
             // 
-            this.button1.Location = new System.Drawing.Point(279, 339);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 59);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnLogin.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnLogin.Location = new System.Drawing.Point(118, 279);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(216, 59);
+            this.BtnLogin.TabIndex = 0;
+            this.BtnLogin.Text = "Войти";
+            this.BtnLogin.UseVisualStyleBackColor = true;
+            this.BtnLogin.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // TbID1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(51, 87);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 44);
-            this.textBox1.TabIndex = 1;
+            this.TbID1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbID1.Location = new System.Drawing.Point(129, 65);
+            this.TbID1.Name = "TbID1";
+            this.TbID1.Size = new System.Drawing.Size(185, 44);
+            this.TbID1.TabIndex = 1;
             // 
-            // textBox2
+            // TbPass1
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(531, 87);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(185, 44);
-            this.textBox2.TabIndex = 2;
+            this.TbPass1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbPass1.Location = new System.Drawing.Point(130, 193);
+            this.TbPass1.Name = "TbPass1";
+            this.TbPass1.Size = new System.Drawing.Size(185, 44);
+            this.TbPass1.TabIndex = 2;
             // 
-            // lblWeight
+            // lblName
             // 
-            this.lblWeight.AutoSize = true;
-            this.lblWeight.Location = new System.Drawing.Point(47, 51);
-            this.lblWeight.Name = "lblWeight";
-            this.lblWeight.Size = new System.Drawing.Size(59, 20);
-            this.lblWeight.TabIndex = 3;
-            this.lblWeight.Text = "Weight";
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblName.Location = new System.Drawing.Point(125, 29);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(252, 31);
+            this.lblName.TabIndex = 3;
+            this.lblName.Text = "Имя пользователя";
             // 
-            // lblYear
+            // lblPass
             // 
-            this.lblYear.AutoSize = true;
-            this.lblYear.Location = new System.Drawing.Point(527, 51);
-            this.lblYear.Name = "lblYear";
-            this.lblYear.Size = new System.Drawing.Size(43, 20);
-            this.lblYear.TabIndex = 4;
-            this.lblYear.Text = "Year";
+            this.lblPass.AutoSize = true;
+            this.lblPass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblPass.Location = new System.Drawing.Point(125, 161);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(112, 31);
+            this.lblPass.TabIndex = 4;
+            this.lblPass.Text = "Пароль";
+            // 
+            // BtnRegister
+            // 
+            this.BtnRegister.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnRegister.Location = new System.Drawing.Point(118, 411);
+            this.BtnRegister.Name = "BtnRegister";
+            this.BtnRegister.Size = new System.Drawing.Size(216, 59);
+            this.BtnRegister.TabIndex = 5;
+            this.BtnRegister.Text = "Регистрация";
+            this.BtnRegister.UseVisualStyleBackColor = true;
+            // 
+            // BtnForgetPass1
+            // 
+            this.BtnForgetPass1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BtnForgetPass1.Location = new System.Drawing.Point(118, 344);
+            this.BtnForgetPass1.Name = "BtnForgetPass1";
+            this.BtnForgetPass1.Size = new System.Drawing.Size(216, 59);
+            this.BtnForgetPass1.TabIndex = 6;
+            this.BtnForgetPass1.Text = "Забыли пароль?";
+            this.BtnForgetPass1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblYear);
-            this.Controls.Add(this.lblWeight);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(511, 515);
+            this.Controls.Add(this.BtnForgetPass1);
+            this.Controls.Add(this.BtnRegister);
+            this.Controls.Add(this.lblPass);
+            this.Controls.Add(this.lblName);
+            this.Controls.Add(this.TbPass1);
+            this.Controls.Add(this.TbID1);
+            this.Controls.Add(this.BtnLogin);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Вход(10 вариант)";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,11 +127,13 @@ namespace OIB_lab_2
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label lblWeight;
-        private System.Windows.Forms.Label lblYear;
+        private System.Windows.Forms.Button BtnLogin;
+        private System.Windows.Forms.TextBox TbID1;
+        private System.Windows.Forms.TextBox TbPass1;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Label lblPass;
+        private System.Windows.Forms.Button BtnRegister;
+        private System.Windows.Forms.Button BtnForgetPass1;
     }
 }
 
