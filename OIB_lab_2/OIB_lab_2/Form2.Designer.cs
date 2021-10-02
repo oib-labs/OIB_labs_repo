@@ -1,7 +1,7 @@
 ﻿
 namespace OIB_lab_2
 {
-    partial class Регистрация
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -202,7 +202,7 @@ namespace OIB_lab_2
             this.BtnSave2.Text = "Сохранить";
             this.BtnSave2.UseVisualStyleBackColor = true;
             // 
-            // Регистрация
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -224,7 +224,7 @@ namespace OIB_lab_2
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TbID2);
             this.Controls.Add(this.label1);
-            this.Name = "Регистрация";
+            this.Name = "Form2";
             this.Text = "Регистрация";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

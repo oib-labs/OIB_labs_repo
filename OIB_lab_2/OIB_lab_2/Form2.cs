@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace OIB_lab_2
 {
-    public partial class Регистрация : Form
+    public partial class Form2 : Form
     {
        
-        public Регистрация(Form1 f)
+        public Form2(Form1 f)
         {
             InitializeComponent();
         }
