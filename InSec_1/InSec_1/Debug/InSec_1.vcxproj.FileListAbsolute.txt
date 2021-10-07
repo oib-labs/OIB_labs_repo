@@ -1,0 +1,6 @@
+C:\Users\igor_\source\repos\InSec_1\InSec_1\Debug\InSec_1.vcxprojAssemblyReference.cache
+C:\Users\igor_\source\repos\InSec_1\InSec_1\Debug\InSec1.MyForm.resources
+C:\Users\igor_\source\repos\InSec_1\InSec_1\Debug\InSec_1.vcxproj.GenerateResource.cache
+C:\Users\asus\Desktop\InSec_1\InSec_1\Debug\InSec_1.vcxprojAssemblyReference.cache
+C:\Users\asus\Desktop\InSec_1\InSec_1\Debug\InSec1.MyForm.resources
+C:\Users\asus\Desktop\InSec_1\InSec_1\Debug\InSec_1.vcxproj.GenerateResource.cache

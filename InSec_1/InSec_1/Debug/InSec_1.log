@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+C:\Users\asus\Desktop\InSec_1\InSec_1\MyForm.h(168,11): warning C4101: techn: неиспользованная локальная переменная
+C:\Users\asus\Desktop\InSec_1\InSec_1\MyForm.h(173,7): warning C4101: t: неиспользованная локальная переменная
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  InSec_1.vcxproj -> C:\Users\asus\Desktop\InSec_1\Debug\InSec_1.exe
