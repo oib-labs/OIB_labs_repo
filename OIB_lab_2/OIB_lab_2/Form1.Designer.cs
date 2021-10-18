@@ -42,10 +42,10 @@ namespace OIB_lab_2
             // BtnLogin
             // 
             this.BtnLogin.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnLogin.Location = new System.Drawing.Point(105, 223);
+            this.BtnLogin.Location = new System.Drawing.Point(118, 279);
             this.BtnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(192, 47);
+            this.BtnLogin.Size = new System.Drawing.Size(216, 59);
             this.BtnLogin.TabIndex = 0;
             this.BtnLogin.Text = "Войти";
             this.BtnLogin.UseVisualStyleBackColor = true;
@@ -54,28 +54,28 @@ namespace OIB_lab_2
             // TbID1
             // 
             this.TbID1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TbID1.Location = new System.Drawing.Point(115, 52);
+            this.TbID1.Location = new System.Drawing.Point(129, 65);
             this.TbID1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TbID1.Name = "TbID1";
-            this.TbID1.Size = new System.Drawing.Size(165, 38);
+            this.TbID1.Size = new System.Drawing.Size(185, 44);
             this.TbID1.TabIndex = 1;
             // 
             // TbPass1
             // 
             this.TbPass1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TbPass1.Location = new System.Drawing.Point(116, 135);
+            this.TbPass1.Location = new System.Drawing.Point(130, 169);
             this.TbPass1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TbPass1.Name = "TbPass1";
-            this.TbPass1.Size = new System.Drawing.Size(165, 38);
+            this.TbPass1.Size = new System.Drawing.Size(185, 44);
             this.TbPass1.TabIndex = 2;
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblName.Location = new System.Drawing.Point(111, 23);
+            this.lblName.Location = new System.Drawing.Point(125, 29);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(177, 23);
+            this.lblName.Size = new System.Drawing.Size(210, 26);
             this.lblName.TabIndex = 3;
             this.lblName.Text = "Имя пользователя";
             // 
@@ -83,50 +83,52 @@ namespace OIB_lab_2
             // 
             this.lblPass.AutoSize = true;
             this.lblPass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblPass.Location = new System.Drawing.Point(111, 110);
+            this.lblPass.Location = new System.Drawing.Point(125, 138);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(76, 23);
+            this.lblPass.Size = new System.Drawing.Size(93, 26);
             this.lblPass.TabIndex = 4;
             this.lblPass.Text = "Пароль";
             // 
             // BtnRegister
             // 
             this.BtnRegister.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnRegister.Location = new System.Drawing.Point(105, 329);
+            this.BtnRegister.Location = new System.Drawing.Point(118, 411);
             this.BtnRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnRegister.Name = "BtnRegister";
-            this.BtnRegister.Size = new System.Drawing.Size(192, 47);
+            this.BtnRegister.Size = new System.Drawing.Size(216, 59);
             this.BtnRegister.TabIndex = 5;
             this.BtnRegister.Text = "Регистрация";
             this.BtnRegister.UseVisualStyleBackColor = true;
+            this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
             // 
             // BtnChangePass1
             // 
             this.BtnChangePass1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BtnChangePass1.Location = new System.Drawing.Point(105, 275);
+            this.BtnChangePass1.Location = new System.Drawing.Point(118, 344);
             this.BtnChangePass1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnChangePass1.Name = "BtnChangePass1";
-            this.BtnChangePass1.Size = new System.Drawing.Size(192, 47);
+            this.BtnChangePass1.Size = new System.Drawing.Size(216, 59);
             this.BtnChangePass1.TabIndex = 6;
             this.BtnChangePass1.Text = "Сменить пароль";
             this.BtnChangePass1.UseVisualStyleBackColor = true;
+            this.BtnChangePass1.Click += new System.EventHandler(this.BtnChangePass1_Click);
             // 
             // LblError
             // 
             this.LblError.AutoSize = true;
             this.LblError.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LblError.ForeColor = System.Drawing.Color.Red;
-            this.LblError.Location = new System.Drawing.Point(144, 186);
+            this.LblError.Location = new System.Drawing.Point(162, 232);
             this.LblError.Name = "LblError";
-            this.LblError.Size = new System.Drawing.Size(101, 23);
+            this.LblError.Size = new System.Drawing.Size(121, 26);
             this.LblError.TabIndex = 7;
             this.LblError.Text = "*ошибка*";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(454, 412);
+            this.ClientSize = new System.Drawing.Size(511, 515);
             this.Controls.Add(this.LblError);
             this.Controls.Add(this.BtnChangePass1);
             this.Controls.Add(this.BtnRegister);

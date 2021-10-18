@@ -16,6 +16,7 @@ namespace OIB_lab_2
         /*private ArrayList AL;
         private Person person;
         private int PersonIndex;*/
+        public PersonCheck personCheck1 = new PersonCheck();
         public Form1()
         {
             InitializeComponent();
@@ -31,17 +32,34 @@ namespace OIB_lab_2
             LblError.Text = "";
             String ID = TbID1.Text;
             String Pass = TbPass1.Text;
-            PersonCheck personCheck = new PersonCheck();
-            LblError.Text = personCheck.CheckPerson(ID, Pass);
-            if (personCheck.CheckPerson(ID, Pass).Equals(""))
+            LblError.Text = personCheck1.CheckPerson(ID, Pass);
+            if (personCheck1.CheckPerson(ID, Pass).Equals(""))
             {
-                int index = personCheck.GetPersonIndex(ID, Pass);
-                ArrayList arrayList = personCheck.GetPersonList();
+                int index = personCheck1.GetPersonIndex(ID, Pass);
+                ArrayList arrayList = personCheck1.GetPersonList();
                 Person person = (Person)arrayList[index];
                 Form4 f4 = new Form4(person);
                 f4.Show();
 
             }
+        }
+
+        private void BtnChangePass1_Click(object sender, EventArgs e)
+        {
+            String ID = TbID1.Text;
+            String Pass = TbPass1.Text;
+            //PersonCheck personCheck = new PersonCheck();
+            int index = personCheck1.GetPersonIndex(ID, Pass);
+            ArrayList arrayList = personCheck1.GetPersonList();
+            Person person = (Person)arrayList[index];
+            Form3 f3 = new Form3(person);
+            f3.Show();
+        }
+
+        private void BtnRegister_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2(personCheck1);
+            f2.Show();
         }
     }
     

@@ -12,9 +12,10 @@ namespace OIB_lab_2
 {
     public partial class Form2 : Form
     {
-       
-        public Form2(Form1 f)
+        private PersonCheck personCheck;
+        public Form2(PersonCheck pC)
         {
+            personCheck = pC;
             InitializeComponent();
         }
 
@@ -25,6 +26,12 @@ namespace OIB_lab_2
         private void button2_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void BtnSave2_Click(object sender, EventArgs e)
+        {
+            Person person = new Person();
+            personCheck.AddPerson(person);
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace OIB_lab_2
 {
-    class PersonCheck
+    public class PersonCheck
     {
         /*private String IDCheck;
         private String PassCheck;*/

@@ -54,7 +54,7 @@ namespace OIB_lab_2
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(34, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 31);
+            this.label1.Size = new System.Drawing.Size(210, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Имя пользователя";
             // 
@@ -201,6 +201,7 @@ namespace OIB_lab_2
             this.BtnSave2.TabIndex = 16;
             this.BtnSave2.Text = "Сохранить";
             this.BtnSave2.UseVisualStyleBackColor = true;
+            this.BtnSave2.Click += new System.EventHandler(this.BtnSave2_Click);
             // 
             // Form2
             // 

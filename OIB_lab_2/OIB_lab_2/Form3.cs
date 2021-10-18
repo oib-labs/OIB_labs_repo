@@ -12,9 +12,18 @@ namespace OIB_lab_2
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        private Person person;
+        public Form3(Person pers)
         {
+            person = pers;
             InitializeComponent();
+        }
+
+        private void BtnSave3_Click(object sender, EventArgs e)
+        {
+            if (TbNewPass3.Text.Length < 8)
+            {
+            }
         }
     }
 }

@@ -30,10 +30,10 @@ namespace OIB_lab_2
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.TbID2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TbCurPass3 = new System.Windows.Forms.TextBox();
+            this.TbNewPass3 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TbNewPassRep3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.BtnSave3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,25 +44,25 @@ namespace OIB_lab_2
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(35, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 31);
+            this.label1.Size = new System.Drawing.Size(194, 26);
             this.label1.TabIndex = 1;
             this.label1.Text = "Текущий пароль";
             // 
-            // TbID2
+            // TbCurPass3
             // 
-            this.TbID2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TbID2.Location = new System.Drawing.Point(403, 57);
-            this.TbID2.Name = "TbID2";
-            this.TbID2.Size = new System.Drawing.Size(233, 35);
-            this.TbID2.TabIndex = 2;
+            this.TbCurPass3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbCurPass3.Location = new System.Drawing.Point(403, 57);
+            this.TbCurPass3.Name = "TbCurPass3";
+            this.TbCurPass3.Size = new System.Drawing.Size(233, 35);
+            this.TbCurPass3.TabIndex = 2;
             // 
-            // textBox1
+            // TbNewPass3
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(403, 177);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(233, 35);
-            this.textBox1.TabIndex = 4;
+            this.TbNewPass3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbNewPass3.Location = new System.Drawing.Point(403, 177);
+            this.TbNewPass3.Name = "TbNewPass3";
+            this.TbNewPass3.Size = new System.Drawing.Size(233, 35);
+            this.TbNewPass3.TabIndex = 4;
             // 
             // label2
             // 
@@ -70,17 +70,17 @@ namespace OIB_lab_2
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(35, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(204, 31);
+            this.label2.Size = new System.Drawing.Size(170, 26);
             this.label2.TabIndex = 3;
             this.label2.Text = "Новый пароль";
             // 
-            // textBox2
+            // TbNewPassRep3
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(403, 288);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 35);
-            this.textBox2.TabIndex = 6;
+            this.TbNewPassRep3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TbNewPassRep3.Location = new System.Drawing.Point(403, 288);
+            this.TbNewPassRep3.Name = "TbNewPassRep3";
+            this.TbNewPassRep3.Size = new System.Drawing.Size(233, 35);
+            this.TbNewPassRep3.TabIndex = 6;
             // 
             // label3
             // 
@@ -88,7 +88,7 @@ namespace OIB_lab_2
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(35, 292);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(362, 31);
+            this.label3.Size = new System.Drawing.Size(302, 26);
             this.label3.TabIndex = 5;
             this.label3.Text = "Новый пароль (повторить)";
             // 
@@ -101,6 +101,7 @@ namespace OIB_lab_2
             this.BtnSave3.TabIndex = 7;
             this.BtnSave3.Text = "Сохранить";
             this.BtnSave3.UseVisualStyleBackColor = true;
+            this.BtnSave3.Click += new System.EventHandler(this.BtnSave3_Click);
             // 
             // Form3
             // 
@@ -108,11 +109,11 @@ namespace OIB_lab_2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(678, 496);
             this.Controls.Add(this.BtnSave3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TbNewPassRep3);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TbNewPass3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TbID2);
+            this.Controls.Add(this.TbCurPass3);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Смена пароля";
@@ -124,10 +125,10 @@ namespace OIB_lab_2
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TbID2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TbCurPass3;
+        private System.Windows.Forms.TextBox TbNewPass3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TbNewPassRep3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtnSave3;
     }
