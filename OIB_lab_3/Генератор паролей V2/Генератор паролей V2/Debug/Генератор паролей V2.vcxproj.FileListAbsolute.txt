@@ -1,0 +1,3 @@
+D:\ОИБ лабы\Генератор паролей V2\Генератор паролей V2\Debug\Генератор паролей V2.vcxprojAssemblyReference.cache
+D:\ОИБ лабы\Генератор паролей V2\Генератор паролей V2\Debug\Генератор_паролей_V2.MyForm.resources
+D:\ОИБ лабы\Генератор паролей V2\Генератор паролей V2\Debug\Генератор паролей V2.vcxproj.GenerateResource.cache
