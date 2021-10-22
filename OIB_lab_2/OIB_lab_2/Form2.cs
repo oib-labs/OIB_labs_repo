@@ -7,15 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace OIB_lab_2
 {
     public partial class Form2 : Form
     {
-        private PersonCheck personCheck;
-        public Form2(PersonCheck pC)
+        public Form2()
         {
-            personCheck = pC;
             InitializeComponent();
         }
 
@@ -30,8 +29,28 @@ namespace OIB_lab_2
 
         private void BtnSave2_Click(object sender, EventArgs e)
         {
-            Person person = new Person();
-            personCheck.AddPerson(person);
+            try
+            {
+                using (ExcelHelper helper = new ExcelHelper())
+                {
+                    if (helper.Open(filePath: Path.Combine("C:/Users/denis/Desktop", "Tab2.xlsx")))
+                    {
+                        int user_num2 = Convert.ToInt32(helper.Get("K", 1))+1;
+                        helper.Set("A", user_num2, Convert.ToString(TbID2.Text));
+                        helper.Set("B", user_num2, Convert.ToString(TbPass2.Text));
+                        helper.Set("C", user_num2, Convert.ToString(TbSurname2.Text));
+                        helper.Set("D", user_num2, Convert.ToString(TbName2.Text));
+                        helper.Set("E", user_num2, Convert.ToString(TbOtch2.Text));
+                        helper.Set("F", user_num2, Convert.ToString(TbBornDate2.Text));
+                        helper.Set("G", user_num2, Convert.ToString(TbBornPlace2.Text));
+                        helper.Set("H", user_num2, Convert.ToString(TbPhone2.Text));
+                        helper.Save();
+                        helper.Dispose();
+                    }
+                }
+
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message); }
         }
     }
 }

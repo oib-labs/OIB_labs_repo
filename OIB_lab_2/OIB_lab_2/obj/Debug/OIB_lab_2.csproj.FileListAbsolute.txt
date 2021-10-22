@@ -11,3 +11,4 @@ D:\Programs\OIB_labs_repo\OIB_lab_2\OIB_lab_2\obj\Debug\OIB_lab_2.Form1.resource
 D:\Programs\OIB_labs_repo\OIB_lab_2\OIB_lab_2\obj\Debug\OIB_lab_2.Form2.resources
 D:\Programs\OIB_labs_repo\OIB_lab_2\OIB_lab_2\obj\Debug\OIB_lab_2.Form3.resources
 D:\Programs\OIB_labs_repo\OIB_lab_2\OIB_lab_2\obj\Debug\OIB_lab_2.Form4.resources
+D:\Programs\OIB_labs_repo\OIB_lab_2\OIB_lab_2\obj\Debug\OIB_lab_2.csproj.ResolveComReference.cache
