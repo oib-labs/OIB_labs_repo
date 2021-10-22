@@ -1,0 +1,5 @@
+d:\Programs\OIB_labs_repo\InSec2_v2\InSec2_v2\obj\Debug\InSec2_v2.csproj.AssemblyReference.cache
+d:\Programs\OIB_labs_repo\InSec2_v2\InSec2_v2\obj\Debug\InSec2_v2.Form1.resources
+d:\Programs\OIB_labs_repo\InSec2_v2\InSec2_v2\obj\Debug\InSec2_v2.Form2.resources
+d:\Programs\OIB_labs_repo\InSec2_v2\InSec2_v2\obj\Debug\InSec2_v2.Form3.resources
+d:\Programs\OIB_labs_repo\InSec2_v2\InSec2_v2\obj\Debug\InSec2_v2.csproj.GenerateResource.cache
